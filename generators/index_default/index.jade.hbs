@@ -6,9 +6,9 @@ html(ng-app="{{ name }}")
         title {{ name }}
         link(rel='favicon.ico', href='favicon.ico')
         link(rel='stylesheet', href='/css/app.css')
-        script(type="text/javascript")
-            window.brunch = window.brunch || {};
-            window.brunch['auto-reload'] = {enabled: true};
+        script(type="text/javascript").
+            window.brunch = window.brunch || {}
+            window.brunch['auto-reload'] = {enabled: true}
         script(src='/js/vendor.js')
         script(src='/js/app.js')
     body
